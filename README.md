@@ -11,6 +11,9 @@ I didn't have experience with Flask before this project so I worked through the 
 - [Web Development with Python Tutorial – Flask & Dynamic Database-Driven Web Apps](https://www.youtube.com/watch?v=yBDHkveJUf4&t=667s&ab_channel=freeCodeCamp.org)
 - [Flask Project Layout](https://flask.palletsprojects.com/en/2.3.x/tutorial/layout/)
 
+# Development Resources
+- [Icons](https://iconmonstr.com/user-circle-thin-svg/)
+
 ### Inspiration
 - [Automation Direct's PLC Selector Tool](https://www.automationdirect.com/systembuilder)
 - [Modicon PLC Configurator](https://www.se.com/ca/en/work/products/industrial-automation-control/tools/modicon-plc-configurator.jsp)
