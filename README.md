@@ -10,3 +10,8 @@ This is a tool for building an Odot C Series IO Rack. It ensures that the correc
 I didn't have experience with Flask before this project so I worked through the following tutorials to help me get started.
 - [Web Development with Python Tutorial – Flask & Dynamic Database-Driven Web Apps](https://www.youtube.com/watch?v=yBDHkveJUf4&t=667s&ab_channel=freeCodeCamp.org)
 - [Flask Project Layout](https://flask.palletsprojects.com/en/2.3.x/tutorial/layout/)
+
+### Inspiration
+- [Automation Direct's PLC Selector Tool](https://www.automationdirect.com/systembuilder)
+- [Modicon PLC Configurator](https://www.se.com/ca/en/work/products/industrial-automation-control/tools/modicon-plc-configurator.jsp)
+- [Odot Automation's US Distributor Site](https://odotautomation.io/)
