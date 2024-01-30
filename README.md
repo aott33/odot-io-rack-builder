@@ -8,13 +8,21 @@ This is a tool for building an Odot C Series IO Rack. It ensures that the correc
 
 ## Resources
 I didn't have experience with Flask before this project so I worked through the following tutorials to help me get started.
+### Tutorials/Guides
+- [Building a Full Stack Application with Flask and HTMx](https://codecapsules.io/tutorial/building-a-full-stack-application-with-flask-and-htmx/)
+- [Building a Full Stack Application with Flask and HTMx - Video](https://www.youtube.com/watch?v=O7st_QGGESM&ab_channel=CodeCapsules)
+- [Deploy a Flask HTMx Application to Production](https://codecapsules.io/doc/how-to-deploy-a-flask-htmx-application-to-production-on-code-capsules/)
+- [Rapid Prototyping with Flask, htmx, and Tailwind CSS](https://testdriven.io/blog/flask-htmx-tailwind/)
 - [Web Development with Python Tutorial – Flask & Dynamic Database-Driven Web Apps](https://www.youtube.com/watch?v=yBDHkveJUf4&t=667s&ab_channel=freeCodeCamp.org)
-- [Flask Project Layout](https://flask.palletsprojects.com/en/2.3.x/tutorial/layout/)
+
 
 ### Development Resources
 - [Icons](https://iconmonstr.com/user-circle-thin-svg/)
+- [Flask Project Layout](https://flask.palletsprojects.com/en/2.3.x/tutorial/layout/)
+- [htmx docs](https://htmx.org/docs/)
 
 ### Inspiration Resources
 - [Automation Direct's PLC Selector Tool](https://www.automationdirect.com/systembuilder)
+- [Deploy a Flask HTMx Application to Production](https://codecapsules.io/doc/how-to-deploy-a-flask-htmx-application-to-production-on-code-capsules/)
 - [Modicon PLC Configurator](https://www.se.com/ca/en/work/products/industrial-automation-control/tools/modicon-plc-configurator.jsp)
 - [Odot Automation's US Distributor Site](https://odotautomation.io/)

@@ -1,0 +1,55 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% assets 'css' %}
+      <link rel="stylesheet" href="{{ ASSET_URL }}">
+    {% endassets %}
+
+    <!-- new -->
+    {% assets 'js' %}
+      <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+    <title>Odot IO Rack Builder</title>
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='/images/icon.png') }}">
+  </head>
+  <body class="bg-blue-100">
+    <header>
+        <!-- Navigation bar -->
+        <div class="bg-gray-100 p-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div>
+                    <a href="#">
+                        <img src="{{ url_for('static', filename='/images/odot-logo.png') }}" class="h-10">
+                    </a>
+                </div>
+
+                <!-- Right Section -->
+                <div class="flex items-center space-x-4">
+                    <!-- Gear Icon -->
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                        <img src="{{ url_for('static', filename='/images/gear-thin.svg') }}">
+                    </a>
+
+                    <!-- Person Icon -->
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                            <img src="{{ url_for('static', filename='/images/user-male-thin.svg') }}">
+                    </a>
+
+                    <!-- Sign In/Register Text -->
+                    <a href="#" class="text-gray-800 hover:text-gray-600">Sign In/Register</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    {% block content %}
+    {% endblock content %}
+  </body>
+</html>
