@@ -7,7 +7,8 @@ This is a tool for building an Odot C Series IO Rack. It ensures that the correc
 - I wanted to build a remote IO rack using Odot C Series IO and thought it would be helpful to have a web based tool for determining the correct modules to order. Odot does have a [configuration tool](https://www.odotautomation.com/downloads_catalog/io-user-manual-config-software/) that can be downloaded and installed.
 
 ## Resources
-I didn't have experience with Flask before this project so I worked through the following tutorials to help me get started.
+I didn't have much experience with Flask before this project so I worked through the following tutorials to help me get started.
+
 ### Tutorials/Guides
 - [Building a Full Stack Application with Flask and HTMx](https://codecapsules.io/tutorial/building-a-full-stack-application-with-flask-and-htmx/)
 - [Building a Full Stack Application with Flask and HTMx - Video](https://www.youtube.com/watch?v=O7st_QGGESM&ab_channel=CodeCapsules)

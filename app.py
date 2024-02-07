@@ -20,7 +20,7 @@ js.build() # new
 
 @app.route("/")
 def homepage():
-    return render_template("index.html")
+    return render_template("base.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
